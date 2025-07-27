@@ -1,0 +1,50 @@
+# Build results
+bin/
+obj/
+out/
+
+# Visual Studio
+.vscode/
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ASP.NET Core secrets
+**/appsettings.*.json
+!**/appsettings.Development.json
+
+# Entity Framework Migrations snapshots (se preferir ignorar)
+# **/Migrations/*Snapshot.cs
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Rider
+.idea/
+*.sln.iml
+
+# dotnet tools
+.nuget/
+*.nupkg
+
+# Database (opcional)
+*.mdf
+*.ldf
+
+# dotenv
+.env
+
+# JetBrains
+*.DotSettings.user
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+TestResults/
